@@ -8,6 +8,9 @@ from Bio.PDB import PDBList, PDBParser
 import biotite.structure.io as bsio
 from PIL import Image
 
+from rdkit import Chem
+from rdkit.Chem import Draw
+
 
 @st.cache(allow_output_mutation=True)
 def download_dataset():
