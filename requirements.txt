@@ -7,5 +7,4 @@ stmol==0.0.7
 streamlit==1.11.1
 streamlit_option_menu==0.3.2
 biotit
-Bio
 
