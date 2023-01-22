@@ -2,10 +2,7 @@ import streamlit as st
 from stmol import showmol
 import py3Dmol
 import random
-from rosetta import *
 import pandas as pd
-from rdkit import Chem
-from rdkit.Chem import Draw
 import requests
 from Bio.PDB import PDBList, PDBParser
 import biotite.structure.io as bsio
